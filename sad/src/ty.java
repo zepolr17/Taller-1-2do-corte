@@ -36,7 +36,19 @@ public class ty {
         System.out.println(var);
         System.out.println(ex);
         switch(var){
-            
+            case 1062:
+                {
+                    System.out.println('se han dulicado valores');
+                    break:
+                
+            }
+            case 1049:
+            {
+                System.out.println('base datos erronea');
+                break:
+                default:
+                System.out.println('error desconcido');
+            }
         }
     } 
 }
